@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Ubah background menjadi biru muda */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333; /* Mengubah warna teks judul menjadi abu-abu gelap */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Ubah tombol menjadi hijau */
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff; /* Ubah latar belakang tabel menjadi putih */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Menggunakan warna border yang lebih terang */
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2; /* Memberi warna latar belakang yang lebih terang pada header tabel */
+    color: #555; /* Warna teks header tabel menjadi abu-abu gelap */
+}
+
+.btn-edit {
+    background-color: #FFD700; /* Kuning emas untuk tombol edit */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-delete {
+    background-color: #FF6347; /* Merah tomat untuk tombol delete */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover, .btn-edit:hover, .btn-delete:hover {
+    opacity: 0.8; /* Efek hover untuk semua tombol */
+}
